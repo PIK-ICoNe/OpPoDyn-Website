@@ -1,4 +1,4 @@
 ---
-title: List of Posts
+title: Announcements
 weight: 20
 ---
