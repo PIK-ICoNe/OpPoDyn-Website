@@ -1,5 +1,5 @@
 ---
-title: Another Great Release
+title: Release post base info
 date: 2018-01-04
 description: >
   A short lead description about this content page. Text here can also be
