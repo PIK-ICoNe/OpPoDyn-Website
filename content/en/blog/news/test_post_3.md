@@ -1,6 +1,6 @@
 ---
-title: Test 3
-date: 2024-06-07
+title: Test 19/06/2024
+date: 2024-06-19
 description: >
   Call for info
 ---
