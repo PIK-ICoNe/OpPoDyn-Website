@@ -1,6 +1,6 @@
-baseURL = "https://oppodyn.de/"
+baseURL = "https://pik-icone.github.io/NetPoDyn-Website/"
 languageCode = 'en-uk'
-title = "OpPoDyn"
+title = "NetPoDyn"
 
 # Language settings
 contentDir = "content/en"
@@ -20,8 +20,8 @@ languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.en.params]
-title = "OpPoDyn"
-description = "The OpPoDyn site"
+title = "NetPoDyn"
+description = "The NetPoDyn site"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
@@ -67,7 +67,7 @@ github_branch= "main"
 prism_syntax_highlighting = false
 
 [params.copyright]
-  authors = "Elisavet (Beth) Proedrou| [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | "
+  authors = "Potsdam Institute for Climate Impact Research | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | "
   from_year = 2024
 
 # User interface configuration
