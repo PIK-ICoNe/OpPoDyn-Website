@@ -1,7 +1,7 @@
 
-- create new templates for the content sections {c}
+- create new templates for the content sections
   - Documentation (docs template) (existed changed the name)
-  - News (blog template) (existed, altering to fit our needs)
+  - News (blog template) (existed, altering to fit our needs) {cm:2024-06-25}
   - Roadmap
   - Citing
   - Showcase
