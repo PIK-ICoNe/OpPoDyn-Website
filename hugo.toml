@@ -82,6 +82,8 @@ navbar_translucent_over_cover_disable = false
 sidebar_menu_compact = false
 # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
 sidebar_search_disable = false
+# Dark Menu activation
+showLightDarkModeMenu = true
 
 
 
