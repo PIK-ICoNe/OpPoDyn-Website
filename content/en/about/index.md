@@ -1,10 +1,10 @@
 ---
-title: About Goldydocs
+title: About NetPoDyn
 linkTitle: About
 menu: {main: {weight: 10}}
 ---
 
-{{% blocks/cover title="About OpPoDyn" image_anchor="bottom" height="auto" %}}
+{{% blocks/cover title="About NetPoDyn" image_anchor="bottom" height="auto" %}}
 {{% /blocks/cover %}}
 
 

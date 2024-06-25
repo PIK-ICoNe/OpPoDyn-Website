@@ -1,5 +1,5 @@
 ---
-title: Goldydocs
+title: NetPoDyn
 ---
 
 
@@ -7,7 +7,7 @@ title: Goldydocs
 
 <!-- Main title of the page -->
 <!-- sets the title of the section in large letters-->
-{{< blocks/cover title="OpPoDyn: Scientific Open Source Software for Power Grid Dynamics">}}
+{{< blocks/cover title="NetPoDyn: Scientific Open Source Software for Power Grid Dynamics">}}
 
   <!-- Provides the HTML Hyperlink to Github Repo -->
   <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
@@ -26,7 +26,7 @@ title: Goldydocs
 <!-------------------------------------- 2nd Section of the page ---------------------------------------------------->
 <!-- sets the colour of the section. In this case "primary" -->
 {{% blocks/lead color="primary" %}}
-  Main Features of OpPoDyn
+  Main Features of NetPoDyn
 {{% /blocks/lead %}}
 
 
@@ -107,19 +107,10 @@ title: Goldydocs
 
 {{% blocks/section type="row" %}}
 
-  {{% blocks/feature icon="fab fa-app-store-ios" title="Download **from AppStore**" %}}
-    Get the Goldydocs app!
-  {{% /blocks/feature %}}
-
   {{% blocks/feature icon="fab fa-github" title="Contributions welcome!"
     url="https://github.com/google/docsy-example" %}}
-    We do a [Pull Request](https://github.com/google/docsy-example/pulls)
-    contributions workflow on **GitHub**. New users are always welcome!
-  {{% /blocks/feature %}}
-
-  {{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!"
-    url="https://twitter.com/GoHugoIO" %}}
-    For announcement of latest features etc.
+    Get the code from (add project git path)
+    New users are always welcome!
   {{% /blocks/feature %}}
 
 {{% /blocks/section %}}
