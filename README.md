@@ -36,10 +36,10 @@ To run the development server locally in your localhost run:
   ```sh
   hugo serve
   ```
-
-
-
-
+ 
+ 
+ 
+----------------------------------------------------------------------------------------------------------------------------------
 # How to add Content Guide
 
 To all content is located in the (/content) folder. To update the content of the website change the contents of this 
