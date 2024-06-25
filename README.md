@@ -38,6 +38,8 @@ To run the development server locally in your localhost run:
   ```
 
 
+
+
 # How to add Content Guide
 
 To all content is located in the (/content) folder. To update the content of the website change the contents of this 
@@ -86,7 +88,7 @@ __the formatting needs to be changed from centered to justified__
 
 ### Benchmarks
 
-This section is currently empty and inactive
+> [!NOTE] This section is currently empty and inactive
 
 
 ### Blog (Section Title: News)
@@ -106,7 +108,7 @@ The **date** determines when the post was made. If a post has a future date, it 
 
 A very basic post can be seen under /content/en/blog/news/1st_online_workshop.md
 
-Entries with future dates will not appear in the page until the date is reached
+[!TIP] Entries with future dates will not appear in the page until the date is reached
 
 
 #### Releases
@@ -117,33 +119,33 @@ You can use this section to create new Release Announcements. The same rules app
 
 ### Citing
 
-This section is currently empty and inactive
+> [!NOTE] This section is currently empty and inactive
 
 
 ### Community
 
-Currently this section is populated by placeholder text from the Docsy example project.
+> [!NOTE] Currently this section is populated by placeholder text from the Docsy example project.
 
 
 ### Docs (Section Title: Documentation)
 
 This is the section where documentation is located.
-Currently this section is populated by placeholder text from the Docsy example project.
+> [!NOTE] Currently this section is populated by placeholder text from the Docsy example project.
 
 
 ### Github
 
-This section is currently empty and inactive
+> [!NOTE] This section is currently empty and inactive
 
 
 ### Roadmap
 
-This section is currently empty and inactive
+> [!NOTE] This section is currently empty and inactive
 
 
 ### Showcase
 
-This section is currently empty and inactive
+> [!NOTE] This section is currently empty and inactive
 
 
 # Last updated on: 25 June 2024
