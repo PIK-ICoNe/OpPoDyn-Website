@@ -10,7 +10,7 @@ title: NetPoDyn
 {{< blocks/cover title="NetPoDyn: Scientific Open Source Software for Power Grid Dynamics">}}
 
   <!-- Provides the HTML Hyperlink to Github Repo -->
-  <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
+  <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/PIK-ICoNe">
     Download <i class="fab fa-github ms-2 "></i>
   </a>
 
@@ -108,7 +108,7 @@ title: NetPoDyn
 {{% blocks/section type="row" %}}
 
   {{% blocks/feature icon="fab fa-github" title="Contributions welcome!"
-    url="https://github.com/google/docsy-example" %}}
+    url="https://github.com/PIK-ICoNe" %}}
     Get the code from (add project git path)
     New users are always welcome!
   {{% /blocks/feature %}}
