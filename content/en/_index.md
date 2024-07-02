@@ -1,5 +1,5 @@
 ---
-title: NetPoDyn
+title: OpPoDyn
 ---
 
 
@@ -7,26 +7,34 @@ title: NetPoDyn
 
 <!-- Main title of the page -->
 <!-- sets the title of the section in large letters-->
-{{< blocks/cover title="NetPoDyn: Scientific Open Source Software for Power Grid Dynamics">}}
+{{< blocks/cover title="OpPoDyn">}}
 
-  <!-- Provides the HTML Hyperlink to Github Repo -->
-  <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/PIK-ICoNe">
-    Download <i class="fab fa-github ms-2 "></i>
-  </a>
 
   <!-- Long title of the Project -->
   <p class="lead mt-5"> 
-    A High Performance Open Source Software Suite for Research on the Dynamics of Power Grids
+    An Open Source Software Suite for Research on the Dynamics of Networks and Power Grids
   </p>
+
+
+  OpPoDyn is a BMWK funded project that develops a state of the art simualtion tool for networked dynamical systems and power grids. We build on prior work on NetworkDynamics.jl and PowerDynamics.jl
+
+  <!-- Provides the HTML Hyperlink to Github Repo -->
+  <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/PIK-ICoNe/NetworkDynamics.jl">
+    NetworkDynamics.jl <i class="fab fa-github ms-2 "></i>
+  </a>
+  <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/JuliaEnergy/PowerDynamics.jl">
+    PowerDynamics.jl <i class="fab fa-github ms-2 "></i>
+  </a>
 
   {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
 
 <!-------------------------------------- 2nd Section of the page ---------------------------------------------------->
+
 <!-- sets the colour of the section. In this case "primary" -->
 {{% blocks/lead color="primary" %}}
-  Main Features of NetPoDyn
+  Main Project Goals
 {{% /blocks/lead %}}
 
 
@@ -38,57 +46,16 @@ title: NetPoDyn
   <!-- Feature 1 -->
   <!-- sets the icon and message that appears underneath it. In this case "fa-lightbulb" and Name of Feature" 
   respectively -->
-  {{% blocks/feature icon="fa-lightbulb" title="Name of Feature 1" %}}
-    Short info about Feature
-
-    Extra comment underneath
+  {{% blocks/feature title="GPU Parallel out of the box" %}}
+    Extract parallelism 
   {{% /blocks/feature %}}
 
 
   <!-- Feature 2 -->
   <!-- sets the icon and message that appears underneath it. In this case "fa-lightbulb" and Name of Feature" 
   respectively -->
-  {{% blocks/feature icon="fa-lightbulb" title="Name of Feature 2" %}}
-    Short info about Feature
-
-    Extra comment underneath
-  {{% /blocks/feature %}}
-
-  <!-- Feature 3 -->
-  <!-- sets the icon and message that appears underneath it. In this case "fa-lightbulb" and Name of Feature" 
-  respectively -->
-  {{% blocks/feature icon="fa-lightbulb" title="Name of Feature 3" %}}
-    Short info about Feature
-
-    Extra comment underneath
-  {{% /blocks/feature %}}
-
-  <!-- Feature 4 -->
-  <!-- sets the icon and message that appears underneath it. In this case "fa-lightbulb" and Name of Feature" 
-  respectively -->
-  {{% blocks/feature icon="fa-lightbulb" title="Name of Feature 4" %}}
-    Short info about Feature
-
-    Extra comment underneath ()
-  {{% /blocks/feature %}}
-
-
-  <!-- Feature 5 -->
-  <!-- sets the icon and message that appears underneath it. In this case "fa-lightbulb" and Name of Feature" 
-  respectively -->
-  {{% blocks/feature icon="fa-lightbulb" title="Name of Feature 5" %}}
-    Short info about Feature
-
-    Extra comment underneath
-  {{% /blocks/feature %}}
-
-  <!-- Feature 6 -->
-  <!-- sets the icon and message that appears underneath it. In this case "fa-lightbulb" and Name of Feature" 
-  respectively -->
-  {{% blocks/feature icon="fa-lightbulb" title="Name of Feature 6" %}}
-    Short info about Feature
-
-    Extra comment underneath
+  {{% blocks/feature icon="fa-lightbulb" title="Equation based modeling" %}}
+    Specify components using equations
   {{% /blocks/feature %}}
 
 
