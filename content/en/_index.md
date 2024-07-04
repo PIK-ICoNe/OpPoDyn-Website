@@ -15,7 +15,6 @@ title: OpPoDyn
     An Open Source Software Suite for Research on the Dynamics of Networks and Power Grids
   </p>
 
-
   OpPoDyn is a BMWK funded project that develops a state of the art simualtion tool for networked dynamical systems and power grids. We build on prior work on NetworkDynamics.jl and PowerDynamics.jl
 
   <!-- Provides the HTML Hyperlink to Github Repo -->
@@ -46,7 +45,7 @@ title: OpPoDyn
   <!-- Feature 1 -->
   <!-- sets the icon and message that appears underneath it. In this case "fa-lightbulb" and Name of Feature" 
   respectively -->
-  {{% blocks/feature title="GPU Parallel out of the box" %}}
+  {{% blocks/feature icon="fa-star" title="GPU Parallel out of the box" %}}
     Extract parallelism 
   {{% /blocks/feature %}}
 
@@ -54,7 +53,7 @@ title: OpPoDyn
   <!-- Feature 2 -->
   <!-- sets the icon and message that appears underneath it. In this case "fa-lightbulb" and Name of Feature" 
   respectively -->
-  {{% blocks/feature icon="fa-lightbulb" title="Equation based modeling" %}}
+  {{% blocks/feature icon="fa-star" title="Equation based modeling" %}}
     Specify components using equations
   {{% /blocks/feature %}}
 
