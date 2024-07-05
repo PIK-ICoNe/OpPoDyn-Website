@@ -2,29 +2,49 @@
 
 The content of the landing page is controlled from a few components
 
-The majority is controlled by the /content/en/_index.md file.
+The majority is controlled by the /content/en/_index.md file and comprised of Docsy’s provided Hugo shortcode
+![page blocks](https://www.docsy.dev/docs/adding-content/shortcodes/#shortcode-blocks).
 
-## _index.md
+## In _index.md
 
-### Landing Page Content
-
-To change the name shown on the cover of the project change the text in the code below
+### Cover
+To change the **section title** change the text in the "title" field below
 ``` sh
-{{< blocks/cover title="OpPoDyn">}}
+{{< blocks/cover title="OpPoDyn"> image_anchor="center" height="med" color="primary" }}
 
 ```
 
-To change the long title of the project, change the text in the code shown below
+To change the **size of the image** you shound change the "height" field. You can choose between: min, med, max or auto
 
+To change the **long title** of the project, change the text in the field below
  <!-- Long title of the Project -->
   <p class="lead mt-5"> 
     An Open Source Software Suite for Research on the Dynamics of Networks and Power Grids
   </p>
 
+  mt-5: is the bootstrap code determining the margins
+
+``` sh
+{{< blocks/link-down color="info" >}}
+```
+creates the arrow pointing downwards that moves the page downwards when clicked
+
+### Main Goals of the Project
+To change the contents of the **Main Project Goal**, change the text in the field below
+{{% blocks/lead color="primary" %}}
+  Main Project Goals
+
+  Write the project goals here
+{{% /blocks/lead %}}
+
+The blocks/lead block shortcode is a simple lead/title block with centred text and an arrow down pointing to the next
+section. In the current setup you should write the goals as a series of short paragraphs separated by a line break to
+separate them. Using a list is currently not visually pleasing.
+
 
 ### Features
 
-The Features are located in the < --- 3rd Section of the page --- >. The section is located in the space
+The Features are located in the < --- Features --- > section. The section is located in the space
 between the following code:
 
 ``` sh
@@ -48,6 +68,8 @@ The icons above each Feature is pulled from https://fontawesome.com. I will fix 
 a different icon go to the website, and copy the fa-name code ![start icon](.README/how-to-guides/images/star-icon.png)
 
 For more information regarding features go to: https://bootstrap.hugoblox.com/blocks/features/
+
+** For more information ** click [here](https://www.docsy.dev/docs/adding-content/shortcodes/#shortcode-blocks)
 
 
 ## hugo.yaml

@@ -3,19 +3,18 @@ title: OpPoDyn
 ---
 
 
-<!-------------------------------------- 1st Section of the page ---------------------------------------------------->
+<!-------------------------------------- Main Cover ---------------------------------------------------->
 
 <!-- Main title of the page -->
 <!-- sets the title of the section in large letters-->
-{{< blocks/cover title="OpPoDyn">}}
-
+{{< blocks/cover title="OpPoDy: An Open Source Software Suite for Research on the Dynamics of Networks and Power Grids"
+image_anchor="top" height="med" >}}
 
   <!-- Long title of the Project -->
   <p class="lead mt-5"> 
-    An Open Source Software Suite for Research on the Dynamics of Networks and Power Grids
+    OpPoDyn is a BMWK funded project that develops a state of the art simualtion tool for networked dynamical systems
+    and power grids. It is built on prior work on NetworkDynamics.jl and PowerDynamics.jl by ** insert information here **
   </p>
-
-  OpPoDyn is a BMWK funded project that develops a state of the art simualtion tool for networked dynamical systems and power grids. We build on prior work on NetworkDynamics.jl and PowerDynamics.jl
 
   <!-- Provides the HTML Hyperlink to Github Repo -->
   <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/PIK-ICoNe/NetworkDynamics.jl">
@@ -29,15 +28,25 @@ title: OpPoDyn
 {{< /blocks/cover >}}
 
 
-<!-------------------------------------- 2nd Section of the page ---------------------------------------------------->
+<!-------------------------------------- Main Goals of the project  ---------------------------------------------------->
 
 <!-- sets the colour of the section. In this case "primary" -->
 {{% blocks/lead color="primary" %}}
-  Main Project Goals
+  ## Main Project Goals:
+  
+  OpPoDyn aims to Lorem ipsum dolor sit amet, elit phaedrum te pro, solum graeci interesset eu ius. Et possim accusata
+  persequeris sed, alia bonorum conclusionemque vim et, labitur quaeque utroque sit eu. In hendrerit scriptorem
+  complectitur his. Tibique nominavi comprehensam ne sit. Equidem interesset duo ea. Ei vix aeque democritum, no eos
+  prima mutat.
+
+  Labitur sapientem tincidunt id vix. Id quod dolore est, eos in regione epicuri expetendis, ius ne simul dictas vivendum.
+  Per paulo nominati ad, in eos quod sumo. Affert tamquam at vim, choro malorum eripuit has no. Civibus senserit imperdiet
+  no pro, te posse comprehensam his. Vix at velit saperet, ex tractatos adolescens sed.
+
 {{% /blocks/lead %}}
 
 
-<!-------------------------------------- 3rd Section of the page ---------------------------------------------------->
+<!-------------------------------------- Features ---------------------------------------------------->
 
 <!-- sets the colour and type of the section. In this case "dark" and "row" respectively -->
 {{% blocks/section color="dark" type="row" %}}
@@ -61,29 +70,20 @@ title: OpPoDyn
 {{% /blocks/section %}}
 
 
-<!-------------------------------------- 4th Section of the page ---------------------------------------------------->
 
-{{% blocks/section %}}
-  This is the 4th section
-  {.h1 .text-center}
-{{% /blocks/section %}}
+<!-------------------------------------- Attributions ---------------------------------------------------->
 
+{{% blocks/section color="200" type="row"%}}
 
-<!-------------------------------------- 5th Section of the page ---------------------------------------------------->
+## Projekt partners und funding:  
 
-{{% blocks/section type="row" %}}
+### PIK is leading the consortium and is responsible for the planning **fill info here**  
 
-  {{% blocks/feature icon="fab fa-github" title="Contributions welcome!"
-    url="https://github.com/PIK-ICoNe" %}}
-    Get the code from (add project git path)
-    New users are always welcome!
-  {{% /blocks/feature %}}
+### TU Dortmund is **fill info here**  
 
-{{% /blocks/section %}}
+### Industry partners are **fill info here**  
 
+### It is funded by the Federal Ministry for Economic Affairs and Climate Protection (Bundesministerium für Wirtschaft und Klimaschutz (BMWK)).   
 
-<!-------------------------------------- 6th Section of the page ---------------------------------------------------->
-{{% blocks/section %}}
-  This is the 6th section
-  {.h1 .text-center}
+![](static/images/logos/bmwk_logo_en.svg)
 {{% /blocks/section %}}
