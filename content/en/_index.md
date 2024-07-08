@@ -53,23 +53,28 @@ image_anchor="top" height="med" >}}
   respectively -->
 
   {{% blocks/feature icon="fa-star" title="GPU Parallel out of the Box" %}}
-    Extract and exploit parallelism based on the network structure and parallelize execution both on CPU and GPU.
+    Extract and exploit parallelism based on the network structure 
+    and parallelize execution both on CPU and GPU.
   {{% /blocks/feature %}}
 
   {{% blocks/feature icon="fa-star" title="Equation Based Modeling" %}}
-    Specify components using equations. Build composite models based on previously defined building blocks.
+    Specify components using equations. Build composite models based 
+    on previously defined building blocks.
   {{% /blocks/feature %}}
 
   {{% blocks/feature icon="fa-star" title="EMT and RMS Models" %}}
-    Pick models from a wide variety from highly detailed EMT models to simplified quasi-static RMS models.
+    Pick models from a wide variety from highly detailed EMT models 
+    to simplified quasi-static RMS models.
   {{% /blocks/feature %}}
 
   {{% blocks/feature icon="fa-star" title="Hackable & Extensible" %}}
-    Inspect the definition of build-in components, create you own model derivations or completely new test szenarios.
+    Inspect the definition of build-in components, create you own 
+    model derivations or completely new test szenarios.
   {{% /blocks/feature %}}
 
   {{% blocks/feature icon="fa-star" title="AD Compatible" %}}
-    Leverage automatic differentiation through models and solvers to speed up sensitivity analysis or parameter optimization.
+    Leverage automatic differentiation through models and solvers to 
+    speed up sensitivity analysis or parameter optimization.
   {{% /blocks/feature %}}
 
   {{% blocks/feature icon="fa-star" title="Visualisation Tools" %}}
@@ -77,7 +82,8 @@ image_anchor="top" height="med" >}}
   {{% /blocks/feature %}}
 
   {{% blocks/feature icon="fa-star" title="Free and Open Source" %}}
-    Everything from component library to solvers is published under MIT license.
+    Everything from component library to solvers is published under 
+    MIT license.
   {{% /blocks/feature %}}
 
 {{% /blocks/section %}}
