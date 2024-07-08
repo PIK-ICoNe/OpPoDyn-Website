@@ -8,7 +8,7 @@ title: OpPoDyn
 <!-- Main title of the page -->
 <!-- sets the title of the section in large letters-->
 {{< blocks/cover title="OpPoDy: An Open Source Software Suite for Research on the Dynamics of Networks and Power Grids"
-image_anchor="top" height="med" >}}
+image_anchor="top" height="full" >}}
 
   <!-- Long title of the Project -->
   <p class="lead mt-5"> 
@@ -85,5 +85,6 @@ image_anchor="top" height="med" >}}
 
 ### It is funded by the Federal Ministry for Economic Affairs and Climate Protection (Bundesministerium für Wirtschaft und Klimaschutz (BMWK)).   
 
-![](static/images/logos/bmwk_logo_en.svg)
+** add logos **
+
 {{% /blocks/section %}}
