@@ -62,7 +62,9 @@ To add a feature place the following code inside the above code:
   {{% /blocks/feature %}}
 ```
 
-Set the name of the feature in the title section. Set any information about the feature in the area between the block lines
+Set the name of the feature in the title section. Set any information about the feature in the area between the block
+lines.
+To fold the line (if it is too long), just press enter and continue in the next line (as shown above)
 
 The icons above each Feature is pulled from https://fontawesome.com. I will fix this later. For now, if you want to use
 a different icon go to the website, and copy the fa-name code ![start icon](.README/how-to-guides/images/star-icon.png)
