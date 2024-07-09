@@ -69,9 +69,15 @@ To fold the line (if it is too long), just press enter and continue in the next 
 The icons above each Feature is pulled from https://fontawesome.com. I will fix this later. For now, if you want to use
 a different icon go to the website, and copy the fa-name code ![start icon](.README/how-to-guides/images/star-icon.png)
 
+If you want no icon, put replace the name of the icon with an empty space
+
 For more information regarding features go to: https://bootstrap.hugoblox.com/blocks/features/
 
 ** For more information ** click [here](https://www.docsy.dev/docs/adding-content/shortcodes/#shortcode-blocks)
+
+
+### Project Partners and Funding
+
 
 
 ## hugo.yaml

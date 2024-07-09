@@ -52,7 +52,7 @@ image_anchor="top" height="med" >}}
   <!-- sets the icon and message that appears underneath it. In this case "fa-lightbulb" and Name of Feature" 
   respectively -->
 
-  {{% blocks/feature icon="fa-star" title="GPU Parallel out of the Box" %}}
+  {{% blocks/feature icon=" " title="GPU Parallel out of the Box" %}}
   <p>
     Extract and exploit parallelism based on the network structure and parallelize execution both on CPU and GPU.
   </p>
@@ -99,19 +99,15 @@ image_anchor="top" height="med" >}}
 
 
 
-<!-------------------------------------- Attributions ---------------------------------------------------->
+<!-------------------------------------- Project Partners ---------------------------------------------------->
 
-{{% blocks/section color="200" type="row"%}}
-
-## Projekt partners and funding:
-
-### PIK is leading the consortium and is responsible for the project management as well as leading the implementation of the simulation backend.
-
-### TU Dortmund is responsible for developing the model library and the user frontend.
-
-### Industry partners are **fill info here**
-
-### It is funded by the Federal Ministry for Economic Affairs and Climate Protection (Bundesministerium für Wirtschaft und Klimaschutz (BMWK)).   
-
-![](static/images/logos/bmwk_logo_en.svg)
-{{% /blocks/section %}}
+{{< blocks/section color="200" type="row" >}}
+<div class="col">
+	<h2 class="text-center pb-3">Project Partners</h2>
+	<p class="text-center showcase">
+		<a href="https://www.pik-potsdam.de/en/output/projects/all/1005"><img alt="PIK Logo" width="200" src="images/PIK_Logo_A_RGB.png" /></a>
+		<a href="https://www.tu-dortmund.de/en/"><img alt="TU Dortmund Logo" width="100" src="images/ie3_logo_2023.svg" /></a>
+		<a href="https://www.bmwk.de/Navigation/EN/Home/home.html"><img alt="BMWK Logo" width="200" src="images/bmwk_logo_en.svg" /></a>
+	</p>
+</div>
+{{< /blocks/section >}}
