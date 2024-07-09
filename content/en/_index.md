@@ -53,37 +53,46 @@ image_anchor="top" height="med" >}}
   respectively -->
 
   {{% blocks/feature icon="fa-star" title="GPU Parallel out of the Box" %}}
-    Extract and exploit parallelism based on the network structure 
-    and parallelize execution both on CPU and GPU.
+  <p>
+    Extract and exploit parallelism based on the network structure and parallelize execution both on CPU and GPU.
+  </p>
   {{% /blocks/feature %}}
 
   {{% blocks/feature icon="fa-star" title="Equation Based Modeling" %}}
+  <p>
     Specify components using equations. Build composite models based 
     on previously defined building blocks.
+  </p>
   {{% /blocks/feature %}}
 
   {{% blocks/feature icon="fa-star" title="EMT and RMS Models" %}}
+  <p>
     Pick models from a wide variety from highly detailed EMT models 
     to simplified quasi-static RMS models.
+  </p>
   {{% /blocks/feature %}}
 
   {{% blocks/feature icon="fa-star" title="Hackable & Extensible" %}}
+  <p>
+    Everything from component library to solvers is published under 
+    MIT license.
     Inspect the definition of build-in components, create you own 
-    model derivations or completely new test szenarios.
+    model derivations or completly new test scenarios.
+  </p>
   {{% /blocks/feature %}}
 
   {{% blocks/feature icon="fa-star" title="AD Compatible" %}}
+  <p>
     Leverage automatic differentiation through models and solvers to 
     speed up sensitivity analysis or parameter optimization.
+  </p>
   {{% /blocks/feature %}}
 
   {{% blocks/feature icon="fa-star" title="Visualisation Tools" %}}
-    Built in tools to inspect and visualize simulation results.
-  {{% /blocks/feature %}}
-
-  {{% blocks/feature icon="fa-star" title="Free and Open Source" %}}
-    Everything from component library to solvers is published under 
-    MIT license.
+  <p>
+    Built in tools to inspect and visualize simulation results ranging from
+    simple timeseries export to complete network plots.
+  </p>
   {{% /blocks/feature %}}
 
 {{% /blocks/section %}}
