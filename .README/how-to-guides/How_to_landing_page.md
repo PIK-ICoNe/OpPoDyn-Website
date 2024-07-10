@@ -5,6 +5,10 @@ The content of the landing page is controlled from a few components
 The majority is controlled by the /content/en/_index.md file and comprised of Docsy’s provided Hugo shortcode
 ![page blocks](https://www.docsy.dev/docs/adding-content/shortcodes/#shortcode-blocks).
 
+## In hugo.yaml
+To change the name of the project as shown at the top left side of the page go to hugo.toml and change the title=" " field
+
+
 ## In _index.md
 
 ### Cover
@@ -102,7 +106,3 @@ To add a new logo follow the following steps:
 		<a href="https://webaddress_you_want_to_link_to.html"><img alt="BMWK Logo" width="200" src="project_partners/bmwk_logo_en.svg" style="margin-right: 8m" /></a>
 ```
 3. edit the above line to fit your needs
-
-
-## hugo.yaml
-
