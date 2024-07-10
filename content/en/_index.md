@@ -108,7 +108,7 @@ image_anchor="top" height="med" >}}
 	<h2 class="text-center pb-3">Project Partners</h2>
 	<p class="text-center showcase">
 		<a href="https://www.pik-potsdam.de/en/output/projects/all/1005"><img alt="PIK Logo" width="200px" src="project_partners/PIK_Logo_A_RGB.png" style="margin-right: 8em" /></a>
-		<a href="https://www.tu-dortmund.de/en/"><img alt="TU Dortmund Logo" width="100px" src="project_partners/ie3_logo_2023.svg" style="margin-right: 8em" /></a>
+		<a href="https://ie3.etit.tu-dortmund.de/"><img alt="TU Dortmund Logo" width="100px" src="project_partners/ie3_logo_2023.svg" style="margin-right: 8em" /></a>
 		<a href="https://www.bmwk.de/Navigation/EN/Home/home.html"><img alt="BMWK Logo" width="200px" src="project_partners/bmwk_logo_en.svg" style="margin-right: 8m" /></a>
 	</p>
 </div>
