@@ -38,8 +38,10 @@ image_anchor="top" height="med" >}}
   ## Main Project Goals
   
   OpPoDyn aims to provide an extensible framework for dynamic simulation of power grids both in RMS and EMT time domain.
-  We aim at providing tools to easily implement and test your own models, control strategies and test scenarios without compromises in performance, instead of purely relying on built-in models and fault scenarios.
-  As such, PowerDynamics.jl is especially suited for testing of new control algorithms, big ensemble studies, sensitivity analysis and parameter optimization.
+  We aim at providing tools to easily implement and test your own models, control strategies and test scenarios without
+  compromises in performance, instead of purely relying on built-in models and fault scenarios.
+  As such, PowerDynamics.jl is especially suited for testing of new control algorithms, big ensemble studies, sensitivity
+  analysis and parameter optimization.
   
 {{% /blocks/lead %}}
 
@@ -101,13 +103,14 @@ image_anchor="top" height="med" >}}
 
 <!-------------------------------------- Project Partners ---------------------------------------------------->
 
-{{< blocks/section color="200" type="row" >}}
+{{< blocks/section color="700">}}
 <div class="col">
 	<h2 class="text-center pb-3">Project Partners</h2>
 	<p class="text-center showcase">
-		<a href="https://www.pik-potsdam.de/en/output/projects/all/1005"><img alt="PIK Logo" width="200" src="images/PIK_Logo_A_RGB.png" /></a>
-		<a href="https://www.tu-dortmund.de/en/"><img alt="TU Dortmund Logo" width="100" src="images/ie3_logo_2023.svg" /></a>
-		<a href="https://www.bmwk.de/Navigation/EN/Home/home.html"><img alt="BMWK Logo" width="200" src="images/bmwk_logo_en.svg" /></a>
+		<a href="https://www.pik-potsdam.de/en/output/projects/all/1005"><img alt="PIK Logo" width="200" src="project_partners/PIK_Logo_A_RGB.png" style="margin-right: 8em" /></a>
+		<a href="https://www.tu-dortmund.de/en/"><img alt="TU Dortmund Logo" width="100" src="project_partners/ie3_logo_2023.svg" style="margin-right: 8em" /></a>
+		<a href="https://www.bmwk.de/Navigation/EN/Home/home.html"><img alt="BMWK Logo" width="200" src="project_partners/bmwk_logo_en.svg" style="margin-right: 8m" /></a>
 	</p>
 </div>
 {{< /blocks/section >}}
+
