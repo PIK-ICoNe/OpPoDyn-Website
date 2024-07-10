@@ -1,6 +1,6 @@
 baseURL = "https://pik-icone.github.io/NetPoDyn-Website/"
 languageCode = 'en-uk'
-title = "NetPoDyn"
+title = "OpPoDy"
 
 # Language settings
 contentDir = "content/en"
@@ -20,8 +20,8 @@ languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.en.params]
-title = "NetPoDyn"
-description = "The NetPoDyn site"
+title = "OpPoDy"
+description = "The OpPoDy Project site"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
