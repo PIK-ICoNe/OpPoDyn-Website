@@ -76,8 +76,32 @@ For more information regarding features go to: https://bootstrap.hugoblox.com/bl
 ** For more information ** click [here](https://www.docsy.dev/docs/adding-content/shortcodes/#shortcode-blocks)
 
 
-### Project Partners and Funding
+### Project Partners
 
+To change the title of the section, change the text  between the "> </h2>" in:
+``` sh
+<h2 class="text-center pb-3">Project Partners</h2>
+```
+
+The logos are located in the /static/project_partners/ folder.
+
+Each logo is set using the structure: 
+``` sh
+		<a href="https://website_address.html"><img alt="alt-text for when the image is not loaded" width="number px" src="project_partners/image_name" style="margin-right: 8em" /></a>
+```
+
+To change the size of the logo, change the width field.
+To change the alt-text for a logo change the text in the alt=" " field.
+To change any the website that the logo points too, change the html address in href=" "
+To change the logo, change the text in the src=" " field 
+
+To add a new logo follow the following steps:
+1. add the new logo in the /static/project_partners/ folder
+2. add the following line underneath the already existing lines:
+``` sh
+		<a href="https://webaddress_you_want_to_link_to.html"><img alt="BMWK Logo" width="200" src="project_partners/bmwk_logo_en.svg" style="margin-right: 8m" /></a>
+```
+3. edit the above line to fit your needs
 
 
 ## hugo.yaml
