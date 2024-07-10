@@ -37,6 +37,12 @@ time_format_blog = "02.01.2006"
     # Uncomment if you want your chosen highlight style used for code blocks without a specified language
     # guessSyntax = "true"
 
+[[menu.main]]
+    identifier = "Impressum"
+    name = "Impressum"
+    url = "https://www.pik-potsdam.de/en/impressum"
+
+
 # Everything below this are Site Params
 
 # Comment out if you don't want the "print entire section" link enabled.
@@ -44,6 +50,9 @@ time_format_blog = "02.01.2006"
 section = ["HTML", "print", "RSS"]
 
 [params]
+privacy_policy = "https://www.pik-potsdam.de/en/privacy-policy/privacy-policy"
+impressum = "https://www.pik-potsdam.de/en/impressum"
+
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.
 version_menu = "Releases"
@@ -52,6 +61,7 @@ version_menu = "Releases"
 # Used in the "version-banner" partial to display a version number for the
 # current doc set.
 version = "0.0"
+
 
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
@@ -84,23 +94,19 @@ sidebar_menu_compact = false
 sidebar_search_disable = false
 # Dark Menu activation
 showLightDarkModeMenu = true
+# Set to true to disable the About link in the site footer
+#footer_about_disable = false
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
-[[params.links.user]]
-  name = "PIK"
-  url = "https://www.pik-potsdam.de/en/output/projects/all/1005"
-  icon = "fa fa-envelope"
-  desc = "PIK Contact"
+#[[params.links.user]]
+#  name = "PIK"
+#  url = "https://www.pik-potsdam.de/en/output/projects/all/1005"
+#  icon = "fa fa-envelope"
+#  desc = "PIK Contact"
 
-# Adds a reading time to the top of each doc.
-# If you want this feature, but occasionally need to remove the Reading time from a single page,
-# add "hide_readingtime: true" to the page's front matter
-[params.ui.readingtime]
-enable = false
 
 # hugo module configuration
-
 [module]
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
   # workspace = "docsy.work"
