@@ -1,4 +1,4 @@
-baseURL = "https://pik-icone.github.io/NetPoDyn-Website/"
+baseURL = "https://pik-icone.github.io/OpPoDyn-Website/"
 languageCode = 'en-uk'
 title = "OpPoDy"
 
@@ -37,10 +37,11 @@ time_format_blog = "02.01.2006"
     # Uncomment if you want your chosen highlight style used for code blocks without a specified language
     # guessSyntax = "true"
 
-[[menu.main]]
-    identifier = "Impressum"
-    name = "Impressum"
-    url = "https://www.pik-potsdam.de/en/impressum"
+# Code to connect pages on the main menu to a different page online
+#[[menu.main]]
+#    identifier = " name on the menu item "
+#    name = " name of the menu item "
+#    url = " website address "
 
 
 # Everything below this are Site Params
