@@ -4,7 +4,7 @@ linkTitle: Workshop
 menu: {main: {weight: 10}}
 ---
 
-{{% blocks/cover title="1st Online Workshop" image_anchor="bottom" height="min" %}}
+{{% blocks/cover title="1st Online Workshop" image_anchor="center" height="med"%}}
   <p class="lead mt-5"> 
     <h2> Workshop Date: 29.08 </h2>
     <h2> Time: 14:00 - 16:00 CET </h2>
@@ -12,7 +12,7 @@ menu: {main: {weight: 10}}
 {{% /blocks/cover %}}
 
 <!----------------------------------------------------------------------------------------->
-{{% blocks/section color="dark" type="row"%}}
+{{% blocks/section color="700" type="row"%}}
 # Workshop Goals
 {.text-center}
 
@@ -28,7 +28,7 @@ menu: {main: {weight: 10}}
 {{% /blocks/section %}}
 
 
-{{% blocks/section %}}
+{{% blocks/section color="yellow" %}}
 
 # Sign-up options
 {.text-center}
