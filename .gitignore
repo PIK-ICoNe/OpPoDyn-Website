@@ -1,6 +1,7 @@
 .history/
-.hugo_build.lock
 /public
 /resources
 /node_modules
+/package-lock.json
 todo
+.hugo_build.lock
