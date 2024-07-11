@@ -2,4 +2,5 @@
 .hugo_build.lock
 /public
 /resources
+/node_modules
 todo
