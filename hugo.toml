@@ -1,6 +1,6 @@
-baseURL = "https://pik-icone.github.io/NetPoDyn-Website/"
+baseURL = "https://pik-icone.github.io/OpPoDyn-Website/"
 languageCode = 'en-uk'
-title = "NetPoDyn"
+title = "OpPoDy"
 
 # Language settings
 contentDir = "content/en"
@@ -20,8 +20,8 @@ languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.en.params]
-title = "NetPoDyn"
-description = "The NetPoDyn site"
+title = "OpPoDy"
+description = "The OpPoDy Project site"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
@@ -37,6 +37,13 @@ time_format_blog = "02.01.2006"
     # Uncomment if you want your chosen highlight style used for code blocks without a specified language
     # guessSyntax = "true"
 
+# Code to connect pages on the main menu to a different page online
+#[[menu.main]]
+#    identifier = " name on the menu item "
+#    name = " name of the menu item "
+#    url = " website address "
+
+
 # Everything below this are Site Params
 
 # Comment out if you don't want the "print entire section" link enabled.
@@ -44,6 +51,9 @@ time_format_blog = "02.01.2006"
 section = ["HTML", "print", "RSS"]
 
 [params]
+privacy_policy = "https://www.pik-potsdam.de/en/privacy-policy/privacy-policy"
+impressum = "https://www.pik-potsdam.de/en/impressum"
+
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.
 version_menu = "Releases"
@@ -52,6 +62,7 @@ version_menu = "Releases"
 # Used in the "version-banner" partial to display a version number for the
 # current doc set.
 version = "0.0"
+
 
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
@@ -83,24 +94,30 @@ sidebar_menu_compact = false
 # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
 sidebar_search_disable = false
 # Dark Menu activation
-showLightDarkModeMenu = true
+#showLightDarkModeMenu = true
+# Set to true to disable the About link in the site footer
+#footer_about_disable = false
 
+[params.links]
+# End user relevant links. These will show up on left side of footer and in the community page if you have one.
+#[[params.links.user]]
+#  name = "PIK"
+#  url = "https://www.pik-potsdam.de/en/output/projects/all/1005"
+#  icon = "fa fa-envelope"
+#  desc = "PIK Contact"
 
-
-# Adds a reading time to the top of each doc.
-# If you want this feature, but occasionally need to remove the Reading time from a single page,
-# add "hide_readingtime: true" to the page's front matter
-[params.ui.readingtime]
-enable = false
 
 # hugo module configuration
-
 [module]
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
   # workspace = "docsy.work"
   [module.hugoVersion]
     extended = true
     min = "0.110.0"
+
   [[module.imports]]
     path = "github.com/google/docsy"
+  [[module.imports]]
+    path = "github.com/hugo-mods/icons"
+  
     disable = false

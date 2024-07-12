@@ -38,8 +38,10 @@ image_anchor="top" height="full" >}}
   ## Main Project Goals
   
   OpPoDyn aims to provide an extensible framework for dynamic simulation of power grids both in RMS and EMT time domain.
-  We aim at providing tools to easily implement and test your own models, control strategies and test scenarios without compromises in performance, instead of purely relying on built-in models and fault scenarios.
-  As such, PowerDynamics.jl is especially suited for testing of new control algorithms, big ensemble studies, sensitivity analysis and parameter optimization.
+  We aim at providing tools to easily implement and test your own models, control strategies and test scenarios without
+  compromises in performance, instead of purely relying on built-in models and fault scenarios.
+  As such, PowerDynamics.jl is especially suited for testing of new control algorithms, big ensemble studies, sensitivity
+  analysis and parameter optimization.
   
 {{% /blocks/lead %}}
 
@@ -52,7 +54,7 @@ image_anchor="top" height="full" >}}
   <!-- sets the icon and message that appears underneath it. In this case "fa-lightbulb" and Name of Feature" 
   respectively -->
 
-  {{% blocks/feature icon="fa-star" title="GPU Parallel out of the Box" %}}
+  {{% blocks/feature icon=" " title="GPU Parallel out of the Box" %}}
   <p>
     Extract and exploit parallelism based on the network structure and parallelize execution both on CPU and GPU.
   </p>
@@ -99,20 +101,15 @@ image_anchor="top" height="full" >}}
 
 
 
-<!-------------------------------------- Attributions ---------------------------------------------------->
+<!-------------------------------------- Project Partners ---------------------------------------------------->
 
-{{% blocks/section color="200" type="row"%}}
-
-## Projekt partners and funding:
-
-### PIK is leading the consortium and is responsible for the project management as well as leading the implementation of the simulation backend.
-
-### TU Dortmund is responsible for developing the model library and the user frontend.
-
-### Industry partners are **fill info here**
-
-### It is funded by the Federal Ministry for Economic Affairs and Climate Protection (Bundesministerium für Wirtschaft und Klimaschutz (BMWK)).   
-
-** add logos **
-
-{{% /blocks/section %}}
+{{< blocks/section color="700">}}
+<div class="col">
+	<h2 class="text-center pb-3">Project Partners</h2>
+	<p class="text-center showcase">
+		<a href="https://www.pik-potsdam.de/en/output/projects/all/1005"><img alt="PIK Logo" width="20%" src="project_partners/PIK_Logo_A_RGB.png" style="margin-right: 3em" /></a>
+		<a href="https://ie3.etit.tu-dortmund.de/"><img alt="TU Dortmund Logo" width="10%" src="project_partners/ie3_logo_2023.svg" style="margin-right: 3em" /></a>
+		<a href="https://www.bmwk.de/Navigation/EN/Home/home.html"><img alt="BMWK Logo" width="20%" src="project_partners/bmwk_logo_en.svg" style="margin-right: 3m" /></a>
+	</p>
+</div>
+{{< /blocks/section >}}
