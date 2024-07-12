@@ -36,16 +36,17 @@ In there we'll give a short update on our progress and our goals. But most impor
 {{% /blocks/lead %}}
 
 
-{{% blocks/section color="yellow" %}}
+{{% blocks/lead color="primary" %}}
+  ## Sign-up for the workshop at:
+  
+<!-- Provides the HTML Hyperlink to signup page -->
+  <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://www.listserv.dfn.de/sympa/subscribe/oppodyn-workshop-2024-august-29">
+    Sign up here
+  </a>
 
-## Sign-up options
-{.text-center}
+  ### Send us requests for further information or content requests at:
+  <a class="btn btn-lg btn-secondary me-3 mb-4">
+    OpPoDyn@pik-potsdam.de
+  </a>
 
-<br>
-
-### Sign up for the workshop at: https://www.listserv.dfn.de/sympa/subscribe/oppodyn-workshop-2024-august-29
-<br>
-
-### Send us requests for further information or content requests at: OpPoDyn@pik-potsdam.de
-
-{{% /blocks/section %}}
+{{% /blocks/lead %}}
