@@ -12,25 +12,33 @@ menu: {main: {weight: 10}}
 {{% /blocks/cover %}}
 
 <!----------------------------------------------------------------------------------------->
-{{% blocks/section color="700" type="row"%}}
-# Workshop Goals
+{{% blocks/lead color="700" type="row"%}}
+## Workshop Goals
 {.text-center}
 
+If you're interested in using our software, learn more about our goals and the project please join our
+*first online workshop on 29th of August 2024*.
+In there we'll give a short update on our progress and our goals. But most importantly we're interested in hearing about your potential use cases.
+
+<div style="text-align: left;">
+
 ### Our workshop aims to:
+
 <ul>
-  <li> <h3> Identify and understand the needs of our user base </h3> </li>
-  <li> <h3> Identify the crucial features that they need </h3>  </li>
-  <li> <h3> Understand how can we help them to use the software </h3> </li>
-  <li> <h3> Identify the deficiencies of the currently in-use, commercial software and the needs that they fail to fill </h3> </li>
-  <li> <h3> Identify simulations that the currently in-use, commercial software, cannot perform </h3> </li>
-  <li> <h3> Identify input that would be useful for the development of our software </h3> </li>
+  <li> Identify and understand the needs of our user base </li>
+  <li> Identify the crucial features that they need  </li>
+  <li> Understand how can we help them to use the software </li>
+  <li> Identify the deficiencies of the currently in-use, commercial software and the needs that they fail to fill </li>
+  <li>Identify simulations that the currently in-use, commercial software, cannot perform </h3> </li>
+  <li>Identify input that would be useful for the development of our software </h3> </li>
 </ul>
-{{% /blocks/section %}}
+</div>
+{{% /blocks/lead %}}
 
 
 {{% blocks/section color="yellow" %}}
 
-# Sign-up options
+## Sign-up options
 {.text-center}
 
 <br>
