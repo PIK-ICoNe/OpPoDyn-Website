@@ -8,7 +8,7 @@ title: OpPoDyn
 <!-- Main title of the page -->
 <!-- sets the title of the section in large letters-->
 {{< blocks/cover title="OpPoDy: An Open Source Software Suite for Research on the Dynamics of Networks and Power Grids"
-image_anchor="top" height="full" >}}
+image_anchor="top" height="med" >}}
 
   <!-- Long title of the Project -->
   <p class="lead mt-5">
