@@ -81,6 +81,6 @@ end
 finish()
 
 cd(@__DIR__)
-cp("background.svg", "../content/en/about/background.svg"; force=true)
+cp("background.svg", "../content/en/workshop/background.svg"; force=true)
 cp("background.svg", "../content/en/background.svg"; force=true)
 rm("background.svg")

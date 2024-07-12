@@ -6,7 +6,7 @@ menu: {main: {weight: 10}}
 
 {{% blocks/cover title="1st Online Workshop" image_anchor="center" height="med"%}}
   <p class="lead mt-5"> 
-    <h2> Workshop Date: 29.08 </h2>
+    <h2> Workshop Date: 29.08.2024 </h2>
     <h2> Time: 14:00 - 16:00 CET </h2>
   </p>
 {{% /blocks/cover %}}

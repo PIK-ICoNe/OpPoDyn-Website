@@ -1,6 +1,6 @@
 # How to Workshop Page
 
-To change the content of the workshop page you need to change the content of the content/en/about/_index.md
+To change the content of the workshop page you need to change the content of the content/en/workshop/_index.md
 
 
 ### Cover
