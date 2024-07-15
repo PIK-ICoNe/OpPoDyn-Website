@@ -45,7 +45,7 @@ In there we'll give a short update on our progress and our goals. But most impor
   </a>
 
   ### Send us requests for further information or content requests at:
-  <a class="btn btn-lg btn-secondary me-3 mb-4">
+  <a class="btn btn-lg btn-secondary me-3 mb-4" href="mailto:OpPoDyn@pik-potsdam.de">
     OpPoDyn@pik-potsdam.de
   </a>
 
