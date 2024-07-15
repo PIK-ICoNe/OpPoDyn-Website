@@ -7,14 +7,14 @@ title: OpPoDyn
 
 <!-- Main title of the page -->
 <!-- sets the title of the section in large letters-->
-{{< blocks/cover title="OpPoDy: An Open Source Software Suite for Research on the Dynamics of Networks and Power Grids"
+{{< blocks/cover title="OpPoDyn: An Open Source Software Suite for Research on the Dynamics of Networks and Power Grids"
 image_anchor="top" height="med" >}}
 
   <!-- Long title of the Project -->
   <p class="lead mt-5">
     OpPoDyn is a BMWK funded project that develops a state of the art simulation tool for networked dynamical systems
     and power grids using the <a href="https://julialang.org">Julia programming language</a>. It is built on prior work on NetworkDynamics.jl and PowerDynamics.jl:
-    While NetworkDynamics.jl provides a fast backend for solving general DAE problems defined on a graph topology using solvers from <a href=https://github.com/SciML/DifferentialEquations.jl>DifferentaialEquations.jl</a>, PowerDynamics.jl provides additional tools specifically tailored towars power grid modeling.
+    While NetworkDynamics.jl provides a fast backend for solving general DAE problems defined on a graph topology using solvers from <a href=https://github.com/SciML/DifferentialEquations.jl>DifferentialEquations.jl</a>, PowerDynamics.jl provides additional tools specifically tailored towards power grid modeling.
   </p>
 
   <!-- Provides the HTML Hyperlink to Github Repo -->
@@ -25,7 +25,7 @@ image_anchor="top" height="med" >}}
     PowerDynamics.jl <i class="fab fa-github ms-2 "></i>
   </a>
   
-  Please note, that both linked packages will receive substantial updates and changes during the course of this project.
+  Please note, that both linked packages will receive substantial updates and changes over the course of this project.
 
   {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
@@ -35,12 +35,16 @@ image_anchor="top" height="med" >}}
 
 <!-- sets the colour of the section. In this case "primary" -->
 {{% blocks/lead color="primary" %}}
+  ## First Online Workshop
+
+  The aim of our project is to provide a tool that meets the needs of the research community. On 29th of August 2024, 14:00 - 16:00, we will host an online [workshop](/workshop/) to gather input from researchers that are interested in using our software. We want to make sure, our work accurately addresses everyones most pressing use cases.
+
   ## Main Project Goals
   
   OpPoDyn aims to provide an extensible framework for dynamic simulation of power grids both in RMS and EMT time domain.
   We aim at providing tools to easily implement and test your own models, control strategies and test scenarios without
-  compromises in performance, instead of purely relying on built-in models and fault scenarios.
-  As such, PowerDynamics.jl is especially suited for testing of new control algorithms, big ensemble studies, sensitivity
+  compromises in performance. There will be no need to rely purely on built-in models and fault scenarios.
+  As such, PowerDynamics.jl will be especially suited for testing of new control algorithms, big ensemble studies, sensitivity
   analysis and parameter optimization.
   
 {{% /blocks/lead %}}
@@ -54,7 +58,7 @@ image_anchor="top" height="med" >}}
   <!-- sets the icon and message that appears underneath it. In this case "fa-lightbulb" and Name of Feature" 
   respectively -->
 
-  {{% blocks/feature icon=" " title="GPU Parallel out of the Box" %}}
+  {{% blocks/feature icon="fa-star" title="GPU Parallel out of the Box" %}}
   <p>
     Extract and exploit parallelism based on the network structure and parallelize execution both on CPU and GPU.
   </p>
@@ -69,7 +73,7 @@ image_anchor="top" height="med" >}}
 
   {{% blocks/feature icon="fa-star" title="EMT and RMS Models" %}}
   <p>
-    Pick models from a wide variety from highly detailed EMT models 
+    A wide variety of standard models will be implemented; from highly detailed EMT models 
     to simplified quasi-static RMS models.
   </p>
   {{% /blocks/feature %}}

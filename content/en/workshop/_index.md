@@ -16,21 +16,24 @@ menu: {main: {weight: 10}}
 ## Workshop Goals
 {.text-center}
 
-If you're interested in using our software, learn more about our goals and the project please join our
+The aim of our project is to provide a tool that meets the needs of the research community. To learn more details about what we intend to build, and to share your most pressing and interesting use cases with us, we invite you to our 
 *first online workshop on 29th of August 2024*.
-In there we'll give a short update on our progress and our goals. But most importantly we're interested in hearing about your potential use cases.
+
+We will give a short update on our project and our goals. But most importantly we're interested in hearing about how you would use our software, and what features you would need to make it useful to you.
+
+As part of the project, we also plan to directly support teams that are building on our software. If you think this might apply to you, this workshop will also be an excellent starting point.
 
 <div style="text-align: left;">
 
 ### Our workshop aims to:
 
 <ul>
-  <li> Identify and understand the needs of our user base </li>
-  <li> Identify the crucial features that they need  </li>
-  <li> Understand how can we help them to use the software </li>
+  <li> Identify and understand the needs of the research community in detail </li>
+  <li> Identify the crucial features that are required  </li>
+  <li> Understand how can we help you use our software </li>
   <li> Identify the deficiencies of the currently in-use, commercial software and the needs that they fail to fill </li>
   <li>Identify simulations that the currently in-use, commercial software, cannot perform </h3> </li>
-  <li>Identify input that would be useful for the development of our software </h3> </li>
+  <li>Gather further input that would be useful for the development of our software </h3> </li>
 </ul>
 </div>
 {{% /blocks/lead %}}
@@ -44,7 +47,7 @@ In there we'll give a short update on our progress and our goals. But most impor
     Sign up here
   </a>
 
-  ### Send us requests for further information or content requests at:
+  ### Send us requests for further information or other questions at:
   <a class="btn btn-lg btn-secondary me-3 mb-4" href="mailto:OpPoDyn@pik-potsdam.de">
     OpPoDyn@pik-potsdam.de
   </a>
