@@ -51,7 +51,7 @@ time_format_blog = "02.01.2006"
 section = ["HTML", "print", "RSS"]
 
 [params]
-privacy_policy = "https://www.pik-potsdam.de/en/privacy-policy/privacy-policy"
+privacy_policy = "privacy_policy"
 impressum = "https://www.pik-potsdam.de/en/impressum"
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
