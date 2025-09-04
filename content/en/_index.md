@@ -37,7 +37,7 @@ image_anchor="top" height="med" >}}
 {{% blocks/lead color="primary" %}}
   ## First Online Workshop
 
-  The aim of our project is to provide a tool that meets the needs of the research community. Between the 16th and 17th of September 2025 we will host a hybrid [workshop](/workshop/) to showcase the capabilities of the current release of PowerDynamics.jl, provide hands-on experience and collect feedback from participants to help guide future development.We want to make sure, our work accurately addresses everyones most pressing use cases.
+  The aim of our project is to provide a tool that meets the needs of the research community. On the 16th - 17th of October 2025 we will host a hybrid [workshop](/workshop/) to showcase the capabilities of the current release of PowerDynamics.jl, provide hands-on experience and collect feedback from participants to help guide future development. We want to make sure, our work accurately addresses everyone's most pressing use cases.
 
   ## Main Project Goals
   
