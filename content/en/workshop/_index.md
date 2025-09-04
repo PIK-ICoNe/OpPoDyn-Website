@@ -9,7 +9,8 @@ menu: {main: {weight: 10}}
     <h2> Workshop Dates: 16-17.10.2025 </h2> 
   </p>
 
-We are happy to announce the official Release of PowerDynamics.jl. As part of the release we are hosting a *two-day, hybrid workshop (16-17.10.2025)* to showcase the capabilities of the current release of PowerDynamics.jl.
+We are happy to announce the official Release of PowerDynamics.jl. <br>
+As part of the release we are hosting a **two-day, hybrid workshop**.
 
 {{% /blocks/cover %}}
 
@@ -21,7 +22,7 @@ We are happy to announce the official Release of PowerDynamics.jl. As part of th
     <ul>
         <li> Showcase the capabilities of the current release of PowerDynamics.jl </li>
         <li> Support users in setting up their environment and exploring example workflows </li>
-        <li> Collect feedback from participants to help guide future development 
+        <li> Collect feedback from thr participants to help guide future development: 
             <ul>
                 <li> Identify missing features </li>
                 <li> Evaluate the frontend/API to uncover documentation gaps and usability issues </li>

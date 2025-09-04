@@ -2,7 +2,6 @@
 title: OpPoDyn
 ---
 
-
 <!-------------------------------------- Main Cover ---------------------------------------------------->
 
 <!-- Main title of the page -->
@@ -13,8 +12,11 @@ image_anchor="top" height="med" >}}
   <!-- Long title of the Project -->
   <p class="lead mt-5">
     OpPoDyn is a BMWK funded project that develops a state of the art simulation tool for networked dynamical systems
-    and power grids using the <a href="https://julialang.org">Julia programming language</a>. It is built on prior work on NetworkDynamics.jl and PowerDynamics.jl:
-    While NetworkDynamics.jl provides a fast backend for solving general DAE problems defined on a graph topology using solvers from <a href=https://github.com/SciML/DifferentialEquations.jl>DifferentialEquations.jl</a>, PowerDynamics.jl provides additional tools specifically tailored towards power grid modeling.
+    and power grids using the <a href="https://julialang.org">Julia programming language</a>. It is built on prior work 
+    on NetworkDynamics.jl and PowerDynamics.jl:
+    While NetworkDynamics.jl provides a fast backend for solving general DAE problems defined on a graph topology using 
+    solvers from <a href=https://github.com/SciML/DifferentialEquations.jl>DifferentialEquations.jl</a>, PowerDynamics.jl 
+    provides additional tools specifically tailored towards power grid modeling.
   </p>
 
   <!-- Provides the HTML Hyperlink to Github Repo -->
@@ -37,15 +39,18 @@ image_anchor="top" height="med" >}}
 {{% blocks/lead color="primary" %}}
   ## First Online Workshop
 
-  The aim of our project is to provide a tool that meets the needs of the research community. On the 16th - 17th of October 2025 we will host a hybrid [workshop](/workshop/) to showcase the capabilities of the current release of PowerDynamics.jl, provide hands-on experience and collect feedback from participants to help guide future development. We want to make sure, our work accurately addresses everyone's most pressing use cases.
+  The aim of our project is to provide a tool that meets the needs of the research community. On the 16th - 17th of 
+  October 2025 we will host a hybrid [workshop](/workshop/) to showcase the capabilities of the current release of 
+  PowerDynamics.jl, provide hands-on experience and collect feedback from participants to help guide future development. 
+  We want to make sure, our work accurately addresses everyone's most pressing use cases.
 
   ## Main Project Goals
   
   OpPoDyn aims to provide an extensible framework for dynamic simulation of power grids both in RMS and EMT time domain.
   We aim at providing tools to easily implement and test your own models, control strategies and test scenarios without
   compromises in performance. There will be no need to rely purely on built-in models and fault scenarios.
-  As such, PowerDynamics.jl will be especially suited for testing of new control algorithms, big ensemble studies, sensitivity
-  analysis and parameter optimization.
+  As such, PowerDynamics.jl will be especially suited for testing of new control algorithms, big ensemble studies, 
+  sensitivity analysis and parameter optimization.
   
 {{% /blocks/lead %}}
 
@@ -111,9 +116,15 @@ image_anchor="top" height="med" >}}
 <div class="col">
 	<h2 class="text-center pb-3">Project Partners</h2>
 	<p class="text-center showcase">
-		<a href="https://www.pik-potsdam.de/en/output/projects/all/1005"><img alt="PIK Logo" width="20%" src="project_partners/PIK_Logo_A_RGB.png" style="margin-right: 3em" /></a>
-		<a href="https://ie3.etit.tu-dortmund.de/"><img alt="TU Dortmund Logo" width="10%" src="project_partners/ie3_logo_2023.svg" style="margin-right: 3em" /></a>
-		<a href="https://www.bmwk.de/Navigation/EN/Home/home.html"><img alt="BMWK Logo" width="20%" src="project_partners/bmwk_logo_en.svg" style="margin-right: 3m" /></a>
+		<a href="https://www.pik-potsdam.de/en/output/projects/all/1005">
+          <img alt="PIK Logo" width="20%" src="project_partners/PIK_Logo_A_RGB.png" style="margin-right: 3em" />
+        </a>
+		<a href="https://ie3.etit.tu-dortmund.de/">
+          <img alt="TU Dortmund Logo" width="10%" src="project_partners/ie3_logo_2023.svg" style="margin-right: 3em" />
+        </a>
+		<a href="https://www.bmwe.de/Navigation/EN/Home/home.html">
+          <img alt="BMWE Logo" width="20%" src="project_partners/bmwe_logo_en.svg" style="margin-right: 3m"/>
+        </a>
 	</p>
 </div>
 {{< /blocks/section >}}
