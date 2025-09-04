@@ -4,7 +4,7 @@ linkTitle: Workshop
 menu: {main: {weight: 10}}
 ---
 
-{{% blocks/cover title="1st Online Workshop" image_anchor="center" height="med"%}}
+{{% blocks/cover title=" Release Hybrid Workshop" image_anchor="center" height="med"%}}
   <p class="lead mt-5"> 
     <h2> Workshop Dates: 16-17.10.2025 </h2> 
   </p>
