@@ -122,7 +122,7 @@ image_anchor="top" height="med" >}}
 		<a href="https://ie3.etit.tu-dortmund.de/">
           <img alt="TU Dortmund Logo" width="10%" src="project_partners/ie3_logo_2023.svg" style="margin-right: 3em" />
         </a>
-		<a href="https://www.bmwe.de/Navigation/EN/Home/home.html">
+		<a href="https://www.bundeswirtschaftsministerium.de/Navigation/EN/Home/home.html">
           <img alt="BMWE Logo" width="20%" src="project_partners/bmwe_logo_en.svg" style="margin-right: 3m"/>
         </a>
 	</p>
